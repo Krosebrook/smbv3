@@ -89,9 +89,6 @@ const Hero = () => {
                 Premium Quality
               </div>
               
-              <div className="absolute -bottom-2 -right-2 md:-bottom-4 md:-right-4 bg-accent text-accent-foreground px-3 py-2 md:px-6 md:py-3 rounded-full text-xs md:text-sm font-bold shadow-elegant animate-pulse">
-                Fast Delivery
-              </div>
             </div>
             
             {/* Background decorative elements with brand colors */}
