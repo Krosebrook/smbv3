@@ -164,7 +164,7 @@ const ContactForm = () => {
               <CardContent className="space-y-4">
                 <div className="flex items-center gap-2">
                   <CheckCircle className="w-4 h-4 text-green-500" />
-                  <span className="text-sm">Women-owned business</span>
+                  <span className="text-sm">Industry-leading service</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <CheckCircle className="w-4 h-4 text-green-500" />

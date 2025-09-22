@@ -84,12 +84,12 @@ const Hero = () => {
                 </div>
               </div>
               
-              {/* Floating badges with brand colors */}
-              <div className="absolute -top-4 -left-4 bg-gradient-cta text-primary-foreground px-6 py-3 rounded-full text-sm font-bold shadow-brand animate-pulse">
+              {/* Floating badges with brand colors - Responsive */}
+              <div className="absolute -top-2 -left-2 md:-top-4 md:-left-4 bg-gradient-cta text-primary-foreground px-3 py-2 md:px-6 md:py-3 rounded-full text-xs md:text-sm font-bold shadow-brand animate-pulse">
                 Premium Quality
               </div>
               
-              <div className="absolute -bottom-4 -right-4 bg-accent text-accent-foreground px-6 py-3 rounded-full text-sm font-bold shadow-elegant animate-pulse">
+              <div className="absolute -bottom-2 -right-2 md:-bottom-4 md:-right-4 bg-accent text-accent-foreground px-3 py-2 md:px-6 md:py-3 rounded-full text-xs md:text-sm font-bold shadow-elegant animate-pulse">
                 Fast Delivery
               </div>
             </div>

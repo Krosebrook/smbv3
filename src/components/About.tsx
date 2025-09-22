@@ -23,11 +23,11 @@ const About = () => {
               </h2>
               <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
                 <p>
-                  As a women-owned business, we take pride in delivering exceptional customer service globally with 
+                  We take pride in delivering exceptional customer service globally with 
                   zero minimum order quantities, making our services accessible to businesses of all sizes worldwide.
                 </p>
                 <p>
-                  Our workflow: Quote → Customer Approval → In-house Production Team → Shopify Fulfillment. 
+                  Our workflow: Quote → Customer Approval → In-house Production Team → Direct Fulfillment. 
                   With our dedicated production facility and ethical supply chain, we ensure products meet the highest 
                   standards while offering complete warehousing and fulfillment capabilities for on-time global delivery.
                 </p>
