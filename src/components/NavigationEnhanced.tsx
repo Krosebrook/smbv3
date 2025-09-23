@@ -62,6 +62,12 @@ const NavigationEnhanced = () => {
                 {tab.label}
               </button>
             ))}
+            <Button 
+              onClick={() => window.location.href = "/portal"}
+              className="ml-4 bg-gradient-cta text-white hover:shadow-lg transition-all duration-200"
+            >
+              CUSTOMER PORTAL
+            </Button>
           </nav>
 
           {/* Mobile menu button */}
@@ -93,6 +99,12 @@ const NavigationEnhanced = () => {
                   {tab.label}
                 </button>
               ))}
+              <Button 
+                onClick={() => window.location.href = "/portal"}
+                className="w-full mt-4 bg-gradient-cta text-white"
+              >
+                CUSTOMER PORTAL
+              </Button>
             </nav>
           </div>
         )}
