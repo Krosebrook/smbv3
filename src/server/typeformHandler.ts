@@ -1,10 +1,6 @@
 import { Request, Response } from 'express';
-import { Client } from '@notionhq/client';
+import { getUncachableNotionClient } from '../utils/notion';
 import { sendEmail } from '../utils/replitmail';
-
-const notion = new Client({
-  auth: process.env.NOTION_API_KEY,
-});
 
 interface TypeformAnswer {
   field: {
@@ -103,6 +99,8 @@ async function saveToNotion(answers: Record<string, any>, submittedAt: string) {
     console.warn('NOTION_DATABASE_ID not set, skipping Notion save');
     return;
   }
+
+  const notion = await getUncachableNotionClient();
 
   const properties: Record<string, any> = {
     'Submitted At': {
